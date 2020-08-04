@@ -1,0 +1,41 @@
+.type-15 {
+  font-family: "Poppins";
+  color: #363636; }
+  @font-face {
+    font-family: PoppinsLight;
+    src: url(../fonts/Poppins-Light.ttf); }
+  @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf); }
+  .type-15 .container-custom {
+    max-width: 1210px !important;
+    margin: auto; }
+    .type-15 .container-custom .title {
+      font-size: 28px;
+      font-family: "PoppinsLight"; }
+    .type-15 .container-custom .date {
+      color: #959595;
+      font-size: 12px; }
+    .type-15 .container-custom p {
+      font-size: 14px; }
+    .type-15 .container-custom .see-more {
+      text-decoration: none;
+      color: #42ccaf; }
+      .type-15 .container-custom .see-more:hover {
+        color: #FF9C00;
+        transition: 0.2s all ease-in; }
+    .type-15 .container-custom .image {
+      width: 600px; }
+    .type-15 .container-custom img {
+      object-fit: cover; }
+    .type-15 .container-custom .line-dots {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 0;
+      border-top: 1px solid #eeeeee; }
+    .type-15 .container-custom .title-content, .type-15 .container-custom .title-content2 {
+      font-family: "PoppinsLight"; }
+    .type-15 .container-custom .title-content {
+      font-size: 19px; }
+    .type-15 .container-custom .title-content2 {
+      font-size: 14px; }

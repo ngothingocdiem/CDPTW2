@@ -1,0 +1,79 @@
+.type-10 {
+      $container: 1210px;
+      $font-size: 14px;
+      $color: rgb(172, 172, 172);
+      $color2: #025a8d; 
+
+      font-family: "Poppins";
+      @font-face {
+            font-family: PoppinsLight;
+            src: url(../fonts/Poppins-Light.ttf);
+      }
+      @font-face {
+            font-family: Poppins;
+            src: url(../fonts/Poppins-Regular.ttf);
+      }
+
+      color: $color;
+
+      .bg-footer{
+            background-image: url('../images/10-hinh1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+
+            .container-custom {
+                  max-width: $container !important;
+                  margin: auto;
+      
+                  .img-logo{
+                        width: 176px;
+                  }
+                  .text-contact{
+                        font-size: $font-size - 2px; // 12px
+                        color: $color; // rgb(172, 172, 172)
+                        letter-spacing: 1px;
+                  }
+                  a{
+                        text-decoration: none;
+                        font-family: "PoppinsLight";
+                        color: $color2; // #025a8d
+                        font-size: $font-size - 1px; // 13px
+                        cursor: pointer;
+
+                        &:hover{
+                              color: $color2 + 253; // #fff
+                              transition: 0.35s all ease;
+                        }
+                  }
+                  .form-control{
+                        border-radius: 0;
+                        border: 1px solid $color;
+                        box-shadow: none;
+                        background: none !important;
+                        font-size: $font-size - 1px; // 13px
+
+                        &:focus{
+                              box-shadow: none !important;
+                              background: #FCF8E3 !important;
+                              border-color: #FBEED5 !important;
+                              opacity: 1;
+                        }
+                        
+                  }
+                  h3{
+                        font-size: $font-size; // 14px
+                  }
+                  .icon{
+                        width: 40px;
+                        height: 40px;
+                        border: 1px solid $color;
+                        cursor: pointer;
+                  }
+                  
+            }
+      }
+      
+}

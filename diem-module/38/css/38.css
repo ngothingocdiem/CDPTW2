@@ -1,0 +1,40 @@
+.type-38 {
+  font-family: "Poppins";
+  color: #363636; }
+  @font-face {
+    font-family: PoppinsLight;
+    src: url(../fonts/Poppins-Light.ttf); }
+  @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf); }
+  .type-38 .bg {
+    background-image: url("../images/38-bg.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%; }
+    .type-38 .bg .container-custom {
+      max-width: 1210px !important;
+      margin: auto; }
+      .type-38 .bg .container-custom .title {
+        font-size: 30px; }
+      .type-38 .bg .container-custom .breadcrumb {
+        background-color: transparent !important; }
+        .type-38 .bg .container-custom .breadcrumb .bc-item::before {
+          content: ">" !important; }
+        .type-38 .bg .container-custom .breadcrumb a {
+          color: #959595;
+          text-decoration: none; }
+        .type-38 .bg .container-custom .breadcrumb .active {
+          color: #42ccaf; }
+  .type-38 .bg-white .form-control {
+    border-bottom: 1px solid #e5e5e5 !important;
+    border-radius: 0;
+    font-size: 14px; }
+    .type-38 .bg-white .form-control:focus {
+      box-shadow: none; }
+  .type-38 .bg-white .btn-submit {
+    border-radius: 2px;
+    background-color: #42ccaf;
+    font-size: 14px; }
+  .type-38 .bg-white .title {
+    font-size: 24px; }

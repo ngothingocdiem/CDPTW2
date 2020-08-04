@@ -1,0 +1,43 @@
+.type-19 {
+  font-family: "Poppins";
+  color: #363636; }
+  @font-face {
+    font-family: PoppinsLight;
+    src: url(../fonts/Poppins-Light.ttf); }
+  @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf); }
+  .type-19 .bg {
+    background-image: url('../images/19-bg.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%; }
+    .type-19 .bg .container-custom {
+      max-width: 1210px !important;
+      margin: auto; }
+      .type-19 .bg .container-custom .title {
+        font-size: 30px; }
+      .type-19 .bg .container-custom .breadcrumb {
+        background-color: transparent !important; }
+        .type-19 .bg .container-custom .breadcrumb .bc-item::before {
+          content: ">" !important; }
+        .type-19 .bg .container-custom .breadcrumb a {
+          color: #959595;
+          text-decoration: none; }
+        .type-19 .bg .container-custom .breadcrumb .active {
+          color: #42ccaf; }
+  .type-19 .bg-white p {
+    font-size: 14px; }
+  .type-19 .bg-white .title-content {
+    font-family: "PoppinsLight";
+    font-size: 28px; }
+  .type-19 .bg-white .date {
+    font-size: 12px;
+    color: #959595; }
+  .type-19 .bg-white .see-more {
+    font-size: 14px;
+    text-decoration: none;
+    color: #42ccaf; }
+    .type-19 .bg-white .see-more:hover {
+      color: #FF9C00;
+      transition: 0.2s all ease-in; }

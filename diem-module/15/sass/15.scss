@@ -1,0 +1,72 @@
+.type-15{
+      $container: 1210px;
+      $font-size: 14px;
+      $color: #363636;
+
+      $color2: #42ccaf;
+
+      $color3: #FF9C00;
+
+     font-family: "Poppins";
+     @font-face {
+           font-family: PoppinsLight;
+           src: url(../fonts/Poppins-Light.ttf);
+     }
+     @font-face {
+           font-family: Poppins;
+           src: url(../fonts/Poppins-Regular.ttf);
+     }
+
+     color: $color;
+
+      .container-custom{
+            max-width: $container !important;
+            margin: auto;
+
+            .title{
+                  font-size: $font-size + 14px; // 28px
+                  font-family: "PoppinsLight";
+            }
+
+            .date{
+                  color: $color + 95; // #959595
+                  font-size: $font-size - 2xp; // 12px 
+            }
+            p{
+                  font-size: $font-size; // 14px;
+            }
+            .see-more{
+                  text-decoration: none;
+                  color: $color2; // #42ccaf
+
+                  &:hover{
+                        color: $color3; // #FF9C00
+                        transition: 0.2s all ease-in;
+                  }
+            }
+            .image{
+                  width: 600px;
+                  // height: 175px;
+            }
+            img{
+                  object-fit: cover;
+            }
+
+            .line-dots{
+                  margin-top: 20px;
+                  margin-bottom: 20px;
+                  border: 0;
+                  border-top: 1px solid #eeeeee;
+            }
+            .title-content, .title-content2{
+                  font-family: "PoppinsLight";
+            }
+            .title-content{
+                  font-size: $font-size + 5px; // 19px
+            }
+            .title-content2{
+                  font-size: $font-size; // 14px
+            }
+      }
+                 
+}

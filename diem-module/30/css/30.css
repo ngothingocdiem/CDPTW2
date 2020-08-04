@@ -1,0 +1,22 @@
+.type-30 {
+  font-family: "Poppins";
+  color: #363636; }
+  @font-face {
+    font-family: PoppinsLight;
+    src: url(../fonts/Poppins-Light.ttf); }
+  @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf); }
+  .type-30 .container-custom {
+    max-width: 1210px !important;
+    margin: auto; }
+    .type-30 .container-custom .maps {
+      background-color: #f7f7f7; }
+    .type-30 .container-custom h4 {
+      font-size: 22px; }
+    .type-30 .container-custom .info-contact {
+      border: 1px solid #e5e5e5; }
+    .type-30 .container-custom a {
+      cursor: pointer;
+      text-decoration: none;
+      color: #363636; }

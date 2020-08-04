@@ -1,0 +1,41 @@
+.type-30{
+      $container: 1210px;
+      $font-size: 14px;
+      $color: #363636;
+      $color2: #f7f7f7;
+
+     font-family: "Poppins";
+     @font-face {
+           font-family: PoppinsLight;
+           src: url(../fonts/Poppins-Light.ttf);
+     }
+     @font-face {
+           font-family: Poppins;
+           src: url(../fonts/Poppins-Regular.ttf);
+     }
+
+     color: $color;
+
+      .container-custom{
+            max-width: $container !important;
+            margin: auto;
+
+            .maps{
+                  background-color: $color2; // #f7f7f7
+            }
+
+            h4{
+                  font-size: $font-size + 8px; // 22px
+            }
+            .info-contact{
+                  border: 1px solid $color + 175; // #e5e5e5
+            }
+            a{
+                  cursor: pointer;
+                  text-decoration: none;
+                  color: $color; // #363636
+            }
+           
+     }
+                 
+}
