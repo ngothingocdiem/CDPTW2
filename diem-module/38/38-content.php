@@ -43,7 +43,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                     <div class="form-group">
                                           <input type="email" class="form-control border-0 pl-0" id="exampleInputEmail1"
-                                                aria-describedby="emailHelp" placeholder="Your mail">
+                                                placeholder="Your mail">
                                     </div>
                                     <div class="form-group">
                                           <input type="text" class="form-control border-0 pl-0" placeholder="Your site">
@@ -62,7 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                     <iframe
                                           src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3918.4618901358263!2d106.75673206472686!3d10.852430842269989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zY2FvIMSR4bqzbmcgY8O0bmcgbmdo4buHIHRo4bunIMSR4bupYw!5e0!3m2!1sen!2s!4v1596052383956!5m2!1sen!2s"
-                                          width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                           allowfullscreen=""
                                           aria-hidden="false" tabindex="0"></iframe>
                               </div>
                         </div>

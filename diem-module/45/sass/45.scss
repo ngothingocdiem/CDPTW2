@@ -37,6 +37,12 @@
   .fs-14 {
     font-size: $font-size; // 14px
   }
+  .border-icon{
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
 
   .text-hover {
     color: $color2;
@@ -312,6 +318,9 @@
       .text-demo {
         color: #5388b4;
       }
+    }
+    @media(max-width: 415px){
+      // width: 400px !important;
     }
   }
 }

@@ -36,6 +36,11 @@
                   color: $color; // #363636
             }
            
+            iframe{
+                  width: 100% !important;
+                  height: 450px;
+                  border:0 !important;
+            }
      }
                  
 }

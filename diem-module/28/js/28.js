@@ -1,18 +1,32 @@
-var slider = document.getElementById("slider-range");
-noUiSlider.create(slider, {
-  start: [20, 80],
-  connect: true,
-  step: 1,
-  orientation: "horizontal", // 'horizontal' or 'vertical'
-  range: {
+// slider range
+$(function () {
+  
+  $("#slider-range").slider({
+    range: true,
     min: 0,
-    max: 100,
-  },
-  format: wNumb({
-    decimals: 0,
-  }),
+    max: 500000, format:'C2',
+    values: [0, 500000],
+    slide: function (event, ui) {
+      $("#amount").val(
+        "($)." + ui.values[0] + "($)." + ui.values[1]
+      );
+    },
+  });
+  $("#amount").val(
+    "($)." +
+      $("#slider-range").slider("values", 0) +
+      "                 ($)." +
+      $("#slider-range").slider("values", 1)
+  );
+  
+  
 });
 
-function clickList() {
-  document.getElementById("list-items").click();
-}
+// multi select
+$(document).ready(function() {
+  $('.js-example-basic-multiple').select2({
+    placeholder: "Type or select some options",
+    // allowClear: true // nút x để tắt placeholder
+  });
+ 
+});

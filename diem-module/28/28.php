@@ -33,7 +33,11 @@ file_put_contents("css/28.css", $result);
       <link href="<?php echo $url_path ?>/css/bootstrap.min.css " rel="stylesheet" type="text/css">
       <link href="<?php echo $url_path ?>/fonts/fontawesome/font-awesome.min.css" rel="stylesheet" type="text/css">
       <link href="<?php echo $url_path ?>/css/28.css" rel="stylesheet" type="text/css">
+      <link href="<?php echo $url_path ?>/css/select2.min.css" rel="stylesheet" type="text/css"> <!--link gọi multi select-->
       <script src="<?php echo $url_path ?>/js/jquery-3.2.0.min.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> <!--để làm slider-ranger-->
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><!--để làm slider-ranger-->
+      <script src="<?php echo $url_path ?>/js/select2.min.js"></script><!--link gọi multi select-->
       <script src="<?php echo $url_path ?>/js/28.js"></script>
 </head>
 

@@ -67,5 +67,10 @@
             .title {
                   font-size: $font-size + 10px; // 24px
             }
+            iframe{
+                  width:100% !important;
+                  height:450px !important;
+                  border:0 !important;
+            }
       }
 }

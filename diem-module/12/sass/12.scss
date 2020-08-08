@@ -8,6 +8,7 @@
       $color3: #FF9C00;
 
      font-family: "Poppins";
+
      @font-face {
            font-family: PoppinsLight;
            src: url(../fonts/Poppins-Light.ttf);
@@ -51,15 +52,18 @@
       .bg-white{
             .title, .title2{
                   font-family: "PoppinsLight";
+                  word-break: break-word;
             }
             .title{
                   font-size: $font-size; // 19px
+                  
             }
             .title2{
                   font-size: $font-size + 9px; // 28px
             }
             p{
                   font-size: $font-size - 5px; // 14px
+                  word-break: break-word;
             }
             .date{
                   font-size: $font-size - 7px; // 12px
@@ -68,6 +72,7 @@
             .see-more{
                   text-decoration: none;
                   color: $color2; // #42ccaf
+                  word-break: break-word;
 
                   &:hover{
                         color: $color3; // #FF9C00

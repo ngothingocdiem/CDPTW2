@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   <div>
                         <p class="position-relative ml-3">At the top of this page, you can see live demonstration of Top
                               Menu.
-                              <img src="./images/19-arrow.png" class="position-absolute">
+                              <img src="./images/19-arrow.png" class="position-absolute" alt="arrow-img">
                         </p>
 
                         <div>
@@ -52,9 +52,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                           fa-xxx </strong> to menu item's parameter <strong>Link CSS Style</strong>,
                                     where <strong> xxx </strong> is the icon name.</p>
                         </div>
-                        <li class="ml-3 mb-3 ">
-                              <a href="#" class="see-more">See preview of all icons</a>
-                        </li>
+                        <ul>
+                              <li class="ml-3 mb-3 ">
+                                    <a href="#" class="see-more">See preview of all icons</a>
+                              </li>
+                        </ul>
+
                   </div>
             </div>
       </div>

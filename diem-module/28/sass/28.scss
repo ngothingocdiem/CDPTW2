@@ -19,6 +19,10 @@
 
       color: $color;
 
+      .fs-14{
+            font-size: $font-size; //14px
+      }
+
       .bg {
             background-image: url("../images/28-bg.png");
             background-repeat: repeat;
@@ -61,11 +65,60 @@
                         background-color: $color2; //#42ccaf
                         font-size: $font-size - 2px; // 12px
                   }
+
+                  .range-custom{
+                        .slider-ranges{
+                              background: $color2;
+                              border: none;
+                              height: 3px !important;
+
+                              .ui-slider-handle{
+                                    border-radius: 50%; // hai hình tròn
+                                    width: 12px !important;
+                                    height: 12px !important;
+
+                                    &:focus{
+                                          outline: none;
+                                    }
+                              }
+                              .ui-state-default{
+                                    background-color: $color2;
+                              }
+                              .ui-widget-header{
+                                    background-color: #aaa !important;
+                                    opacity: 0.5;
+                              }
+                          }
+                          .amount{
+                                border: none;
+                                font-size: $font-size - 3px; //11px
+
+                                &:focus{
+                                      border: none;
+                                      box-shadow: none;
+                                      outline: none;
+                                }
+                          }
+
+                          
+                  }
+
+                  .select-multi-custom{
+                        .select2-selection--multiple{
+                              border-radius: 0;
+                              border-color: $color + 175; // #e5e5e5
+                        }
+                        .select2-selection__choice, .select2-selection__rendered{
+                              font-size: $font-size - 1px !important; //13px
+                        }
+                        
+                  }
+                  
             }
 
             .form-control {
                   border-radius: 0 !important;
-                  font-size: $font-size; //14px
+                  // font-size: $font-size; //14px
                   
             }
 
@@ -126,7 +179,7 @@
                         font-size: $font-size + 4px; // 18px
                   }
                   .card-text {
-                        font-size: $font-size; // 14px
+                        // font-size: $font-size; // 14px
                         line-height: 20px;
                         color: $color + 48; // #666
                   }
@@ -134,14 +187,12 @@
                         font-size: $font-size - 2px; // 12px
                         color: $color + 95; // #959595
                   }
-                  .content-icon {
-                        font-size: $font-size; // 14px
-                  }
+                 
                   .text-category {
                         font-size: $font-size - 2px; // 12px
                   }
                   .price {
-                        font-size: $font-size; // 14px
+                        // font-size: $font-size; // 14px
                         color: $color2; // #42ccaf
                   }
             }

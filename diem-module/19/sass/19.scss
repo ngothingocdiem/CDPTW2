@@ -19,6 +19,10 @@
 
      color: $color;
 
+     p{
+           word-break: break-word;
+     }
+
      .bg{
            background-image: url('../images/19-bg.png');
            background-repeat: repeat;
@@ -66,6 +70,7 @@
                   font-size: $font-size; // 14px
                   text-decoration: none;
                   color: $color2; // #42ccaf
+                  word-break: break-word;
 
                   &:hover{
                         color: $color3; // #FF9C00

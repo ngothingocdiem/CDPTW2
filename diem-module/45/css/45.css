@@ -15,6 +15,11 @@
     text-decoration: none; }
   .type-45 .fs-14 {
     font-size: 14px; }
+  .type-45 .border-icon {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px; }
   .type-45 .text-hover {
     color: #42ccaf; }
     .type-45 .text-hover:hover {

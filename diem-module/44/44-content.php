@@ -24,7 +24,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <li class="breadcrumb-item bc-item text-capitalize"><a href="#">Kunena Forum</a>
                                     </li>
                                     <li class="breadcrumb-item bc-item active text-capitalize">Index</li>
-                                    </li>
                               </ol>
                         </nav>
                   </div>
@@ -53,9 +52,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                           <a class="nav-item nav-link fs-14" id="nav-general-tab" data-toggle="tab"
                                                 href="#nav-general" role="tab" aria-controls="nav-general"
                                                 aria-selected="false">General Statistics</a>
-                                          <a class="nav-item nav-link fs-14" id="nav-topic-search-tab" data-toggle="tab"
-                                                href="#nav-topic-search" role="tab" aria-controls="nav-topic-search"
-                                                aria-selected="false">Search Topics</a>
+                                                <a class="nav-item nav-link fs-14" id="nav-topic-search-tab"
+                                                      data-toggle="tab" href="#nav-topic-search" role="tab"
+                                                      aria-controls="nav-topic-search" aria-selected="false">Search
+                                                      Topics</a>
                                     </div>
                               </nav>
                               <div class="d-lg-none d-block">
@@ -99,43 +99,40 @@ $url_path = str_replace('\\', '/', $url_path);
                                                       <i class="fa fa-user-circle mr-1" aria-hidden="true"></i>
                                                       <span class="fs-14">Log in</span>
                                                 </button>
-                                                <div class="dropdown-menu p-3"
-                                                            aria-labelledby="dropdownMenuButton">
-                                                            <div class="d-flex justify-content-center ">
-                                                                  <a class="icon-user" href="#"><i
-                                                                              class="fa fa-users p-2 fa-2x"
-                                                                              aria-hidden="true"></i></a>
-                                                            </div>
-                                                            <form class="mt-3">
-                                                                  <div class="form-group">
-                                                                        <input type="text" class="form-control fs-14"
-                                                                              id="name" placeholder="Username">
-                                                                  </div>
-                                                                  <div class="form-group">
-                                                                        <input type="password"
-                                                                              class="form-control fs-14" id="password"
-                                                                              placeholder="Password">
-                                                                  </div>
-                                                                  <div class="form-group form-check">
-                                                                        <input type="checkbox"
-                                                                              class="form-check-input fs-14"
-                                                                              id="exampleCheck1">
-                                                                        <label class="form-check-label fs-14"
-                                                                              for="exampleCheck1">Remember me</label>
-                                                                  </div>
-                                                                  <button type="submit"
-                                                                        class="btn-submit text-white text-uppercase fs-14">sign
-                                                                        in</button>
-
-                                                                  <div class="mt-3 fs-14">
-                                                                        <a href="#" class="text-forgot">Forgot your
-                                                                              password?</a>
-                                                                        <a href="#" class="text-forgot d-block">Forgot
-                                                                              your
-                                                                              username?</a>
-                                                                  </div>
-                                                            </form>
+                                                <div class="dropdown-menu p-3" aria-labelledby="dropdownMenuButton">
+                                                      <div class="d-flex justify-content-center ">
+                                                            <a class="icon-user" href="#"><i
+                                                                        class="fa fa-users p-2 fa-2x"
+                                                                        aria-hidden="true"></i></a>
                                                       </div>
+                                                      <form class="mt-3">
+                                                            <div class="form-group">
+                                                                  <input type="text" class="form-control fs-14"
+                                                                        id="name" placeholder="Username">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                  <input type="password" class="form-control fs-14"
+                                                                        id="password" placeholder="Password">
+                                                            </div>
+                                                            <div class="form-group form-check">
+                                                                  <input type="checkbox" class="form-check-input fs-14"
+                                                                        id="exampleCheck1">
+                                                                  <label class="form-check-label fs-14"
+                                                                        for="exampleCheck1">Remember me</label>
+                                                            </div>
+                                                            <button type="submit"
+                                                                  class="btn-submit text-white text-uppercase fs-14">sign
+                                                                  in</button>
+
+                                                            <div class="mt-3 fs-14">
+                                                                  <a href="#" class="text-forgot">Forgot your
+                                                                        password?</a>
+                                                                  <a href="#" class="text-forgot d-block">Forgot
+                                                                        your
+                                                                        username?</a>
+                                                            </div>
+                                                      </form>
+                                                </div>
                                           </div>
                                     </div>
                               </div>
@@ -159,14 +156,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                           </ol>
                                     </nav>
                                     <div class="mt-lg-4 mt-3 d-flex ">
-                                          <form action="">
+                                          <form>
                                                 <div class="form-group">
                                                       <select id="categories" class="form-control fs-14"
                                                             onchange="this.form.submit()">
-                                                            <option value="0" href="#">Main Forum</option>
-                                                            <option value="1" href="#">Board Categories</option>
-                                                            <option value="2" href="#">- Welcome Mat</option>
-                                                            <option value="3" href="#">- Suggestion Box</option>
+                                                            <option value="0">Main Forum</option>
+                                                            <option value="1">Board Categories</option>
+                                                            <option value="2">- Welcome Mat</option>
+                                                            <option value="3">- Suggestion Box</option>
                                                       </select>
                                                 </div>
                                           </form>
@@ -179,7 +176,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                           <table class="table table-bordered">
                                                 <thead>
                                                       <tr>
-                                                            <td scope="col" colspan="3" class="fs-14">This is the main
+                                                            <td colspan="3" class="fs-14">This is the main
                                                                   forum section.
                                                                   It serves as a container for categories for your
                                                                   topics.</td>
@@ -187,7 +184,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </thead>
                                                 <tbody>
                                                       <tr>
-                                                            <td scope="row" colspan="2" class="w-75 fs-14">Category</td>
+                                                            <td colspan="2" class="w-75 fs-14">Category</td>
                                                             <td colpan="1" class="w-25 fs-14">Last Post</td>
 
                                                       </tr>
@@ -206,7 +203,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                                                         <a href="#" class="text-hover"><i
                                                                                     class="fa fa-wifi fa-rotate-45"
                                                                                     aria-hidden="true"></i>
-                                                                  </div></a>
+                                                                                    </a>
+                                                                  </div>
                                                                   <p class="fs-14">We encourage new members to introduce
                                                                         themselves here. Get to know one another
                                                                         and share your interests.</p>
@@ -249,25 +247,31 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
 
                                     <div class="mt-3 table-custom-mobile d-block d-md-none">
-                                    <table class="table table-bordered">
+                                          <table class="table table-bordered">
                                                 <tbody>
                                                       <tr>
-                                                            <td scope="row" class="fs-14"><a href="#"
-                                                                                    class="title-table">Welcome
-                                                                                    Mat</a></td>
+                                                            <td class="fs-14"><a href="#"
+                                                                        class="title-table">Welcome
+                                                                        Mat</a></td>
 
                                                       </tr>
                                                       <tr>
-                                                            <td class=""><a href="#"
-                                                                                    class="title-table">Suggestion
-                                                                                    Box</a></td>
+                                                            <td class=""><a href="#" class="title-table">Suggestion
+                                                                        Box</a></td>
                                                       </tr>
                                                 </tbody>
                                           </table>
                                     </div>
 
                                     <div>
-                                          <h2 class="text-uppercase "><a href="#" class="text-content">members</a></h2>
+                                          <div class="d-flex justify-content-between align-items-center">
+                                                <h2 class="text-uppercase "><a href="#" class="text-content">members</a>
+                                                </h2>
+                                                <div
+                                                      class="d-flex border-icon  align-items-center justify-content-center">
+                                                      <i class="fa fa-angle-up" aria-hidden="true"></i>
+                                                </div>
+                                          </div>
                                           <div class="d-lg-flex align-items-center">
                                                 <i class="fa fa-users fa-3x mr-lg-5" aria-hidden="true"></i>
                                                 <p class="mb-0 fs-14 mt-3 mt-lg-0">Total users online:
@@ -277,8 +281,15 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
 
                                     <div>
+                                          
+                                          <div class="d-flex justify-content-between align-items-center">
                                           <h2 class="text-uppercase "><a href="#" class="text-content">Statistics</a>
                                           </h2>
+                                                <div
+                                                      class="d-flex border-icon  align-items-center justify-content-center">
+                                                      <i class="fa fa-compress" aria-hidden="true"></i>
+                                                </div>
+                                          </div>
                                           <div class="row fs-14">
                                                 <div class="col-lg-4 col-12 ">
                                                       <p class="mb-0 ml-lg-5 pl-lg-5 ">Total Messages:

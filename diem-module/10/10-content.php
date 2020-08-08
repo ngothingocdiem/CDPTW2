@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-md-4 col-12">
                               <div class="d-flex mb-4">
                                     <div class="img-logo">
-                                          <img src="./images/10-logo.png" class="w-100 h-100">
+                                          <img src="./images/10-logo.png" class="w-100 h-100" alt="Logo-module-10">
                                     </div>
 
                               </div>
@@ -41,32 +41,32 @@ $url_path = str_replace('\\', '/', $url_path);
                               <div class="row">
                                     <div class="col-md-6 col-12">
                                           <h3 class="text-uppercase text-white mb-4">MY ACCOUNT</h3>
-                                          <a href="#">
-                                                <div class="text-capitalize mb-2">My Order</div>
+                                          <a href="#" class="d-block">
+                                                <span class="text-capitalize mb-2">My Order</span>
                                           </a>
-                                          <a href="#">
-                                                <div class="text-capitalize mb-2">My Wishlist</div>
+                                          <a href="#" class="d-block">
+                                                <span class="text-capitalize mb-2">My Wishlist</span>
                                           </a>
-                                          <a href="#">
-                                                <div class="text-capitalize mb-2">My Credit Slip</div>
+                                          <a href="#" class="d-block">
+                                                <span class="text-capitalize mb-2">My Credit Slip</span>
                                           </a>
-                                          <a href="#">
-                                                <div class="text-capitalize mb-2">My Addresses</div>
+                                          <a href="#" class="d-block">
+                                                <span class="text-capitalize mb-2">My Addresses</span>
                                           </a>
                                     </div>
                                     <div class="col-md-6 col-12">
                                           <h3 class="text-uppercase text-white mb-4">INFORMATION</h3>
-                                          <a href="#">
-                                                <div class="text-capitalize mb-2">About</div>
+                                          <a href="#" class="d-block">
+                                                <span class="text-capitalize mb-2">About</span>
                                           </a>
-                                          <a href="#">
-                                                <div class="text-capitalize mb-2">Terms & Conditions</div>
+                                          <a href="#" class="d-block">
+                                                <span class="text-capitalize mb-2">Terms & Conditions</span>
                                           </a>
-                                          <a href="#">
-                                                <div class="text-capitalize mb-2">Privacy Policy</div>
+                                          <a href="#" class="d-block">
+                                                <span class="text-capitalize mb-2">Privacy Policy</span>
                                           </a>
-                                          <a href="#">
-                                                <div class="text-capitalize mb-2">Contact</div>
+                                          <a href="#" class="d-block">
+                                                <span class="text-capitalize mb-2">Contact</span>
                                           </a>
                                     </div>
                               </div>

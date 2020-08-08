@@ -7,6 +7,8 @@
   @font-face {
     font-family: Poppins;
     src: url(../fonts/Poppins-Regular.ttf); }
+  .type-28 .fs-14 {
+    font-size: 14px; }
   .type-28 .bg {
     background-image: url("../images/28-bg.png");
     background-repeat: repeat;
@@ -35,9 +37,35 @@
       border-radius: 0px;
       background-color: #42ccaf;
       font-size: 12px; }
+      .type-28 .bg-white .group-form .range-custom .slider-ranges {
+        background: #42ccaf;
+        border: none;
+        height: 3px !important; }
+        .type-28 .bg-white .group-form .range-custom .slider-ranges .ui-slider-handle {
+          border-radius: 50%;
+          width: 12px !important;
+          height: 12px !important; }
+          .type-28 .bg-white .group-form .range-custom .slider-ranges .ui-slider-handle:focus {
+            outline: none; }
+        .type-28 .bg-white .group-form .range-custom .slider-ranges .ui-state-default {
+          background-color: #42ccaf; }
+        .type-28 .bg-white .group-form .range-custom .slider-ranges .ui-widget-header {
+          background-color: #aaa !important;
+          opacity: 0.5; }
+      .type-28 .bg-white .group-form .range-custom .amount {
+        border: none;
+        font-size: 11px; }
+        .type-28 .bg-white .group-form .range-custom .amount:focus {
+          border: none;
+          box-shadow: none;
+          outline: none; }
+    .type-28 .bg-white .group-form .select-multi-custom .select2-selection--multiple {
+      border-radius: 0;
+      border-color: #e5e5e5; }
+    .type-28 .bg-white .group-form .select-multi-custom .select2-selection__choice, .type-28 .bg-white .group-form .select-multi-custom .select2-selection__rendered {
+      font-size: 13px !important; }
   .type-28 .bg-white .form-control {
-    border-radius: 0 !important;
-    font-size: 14px; }
+    border-radius: 0 !important; }
     .type-28 .bg-white .form-group .form-control {
       cursor: pointer !important; }
   .type-28 .bg-white .form-control, .type-28 .bg-white .form-group:focus {
@@ -72,16 +100,12 @@
     .type-28 .bg-white .card .card-title {
       font-size: 18px; }
     .type-28 .bg-white .card .card-text {
-      font-size: 14px;
       line-height: 20px;
       color: #666; }
     .type-28 .bg-white .card .card-text small {
       font-size: 12px;
       color: #959595; }
-    .type-28 .bg-white .card .content-icon {
-      font-size: 14px; }
     .type-28 .bg-white .card .text-category {
       font-size: 12px; }
     .type-28 .bg-white .card .price {
-      font-size: 14px;
       color: #42ccaf; }

@@ -38,6 +38,13 @@
     font-size: $font-size; // 14px
   }
 
+  .border-icon{
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+
   .text-hover {
     color: $color2;
 
@@ -57,6 +64,10 @@
   }
 
   color: $color;
+
+  .form-control:focus{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  }
 
   .bg {
     background-image: url("../images/47-bg.png");
@@ -187,9 +198,9 @@
               background-color: $color2; // #42ccaf
               border: 1px solid $color2; // #42ccaf
             }
-            .form-control:focus {
-              box-shadow: 0 !important;
-            }
+            // .form-control:focus {
+            //   box-shadow: 0 !important;
+            // }
             .text-forgot {
               text-decoration: none;
               color: $color; //#363636
@@ -239,67 +250,23 @@
       }
       .form-control,
       .form-group:focus {
-        box-shadow: none !important;
+        // box-shadow: none !important;
         border-color: $color + 175 !important; // #e5e5e5
       }
 
       .name-topic {
         font-size: $font-size + 8; //22px
-        color: $color2; // #42ccaf
-        text-decoration: none;
       }
       .name-topic2 {
-        font-size: $font-size + 2.5px; // 16.5px
+        font-size: $font-size + 6px; // 20px
       }
 
-      .pagination {
-        .page-active {
-          .page-link {
-            background-color: $color2 !important;
-            color: $color + 201 !important; // #fff
-          }
-        }
-        .page-link {
-          color: $color2; //
-        }
-      }
-      .search {
-        .text-search {
-          height: 30px;
-          width: 0;
-          transition: 0.5s all ease-in;
-          padding: 0 !important;
+  .box-search{
+    border: 1px solid $color + 173; // #e3e3e3
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  }      
 
-          &:focus {
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6) !important;
-          }
-        }
-        .btn-search {
-          border: 1px solid $color + 167; // #ddd
-          border-radius: 0 !important;
-          width: 30px;
-          height: 30px;
-          background-color: transparent;
-
-          &:hover {
-            background-color: $color + 176; // e6e6e6
-          }
-          &:focus {
-            box-shadow: 0;
-          }
-          .icon-search {
-            font-size: $font-size - 2px; // 12px
-          }
-        }
-
-        &:hover {
-          .text-search {
-            width: 100%;
-            transition: 1.2s all ease-in;
-            padding: 6px 48px 6px 6px !important;
-          }
-        }
-      }
 
       .text-content {
         font-size: $font-size + 6px; // 20px
@@ -311,6 +278,18 @@
       }
       .text-demo {
         color: #5388b4;
+      }
+      .form-check-custom{
+        .form-check-input{
+          margin-left: 0.25rem !important;
+        }
+      }
+      .custom-select{
+        border-radius: 0;
+
+        &:focus{
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+        }
       }
     }
   }

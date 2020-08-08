@@ -33,12 +33,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         <form>
                               <div class="row">
                                     <div class="col-lg-3 col-12">
-                                          <input type="text" class="form-control" placeholder="Key words..."
+                                          <input type="text" class="form-control fs-14" placeholder="Key words..."
                                                 id="keyword" name="keyword">
                                     </div>
                                     <div class="col-lg-3 col-12 mt-3 mt-lg-0">
                                           <div class="form-group">
-                                                <select id="any" class="form-control ">
+                                                <select id="any" class="form-control fs-14">
                                                       <option value="0">Any</option>
                                                       <option value="1">For lease</option>
                                                       <option value="2">For rent</option>
@@ -51,27 +51,34 @@ $url_path = str_replace('\\', '/', $url_path);
                                           </div>
                                     </div>
                                     <div class="col-lg-3 col-12">
-                                          <div class="form-group">
-                                                <select class="form-control">
-                                                      <option value="0">Type or select some options</option>
-                                                      <option value="1">Country house</option>
-                                                      <option value="2">Villa</option>
-                                                      <option value="3">Apartment</option>
-                                                      <option value="4">Office</option>
-                                                      <option value="5">House</option>
-                                                      <option value="6">Building</option>
-                                                      <option value="7">Shop</option>
-                                                      <option value="8">Acreage</option>
-                                                </select>
+                                          <div class="select-multi-custom">
+                                          <select class="js-example-basic-multiple w-100" name="states[]" multiple="multiple">
+                                                <option value="0">Country house</option>
+                                                <option value="1">Villa</option>
+                                                <option value="2">Apartment</option>
+                                                <option value="3">Office</option>
+                                                <option value="4">House</option>
+                                                <option value="5">Building</option>
+                                                <option value="6">Shop</option>
+                                                <option value="7">Acreage</option>
+                                          </select>
                                           </div>
                                     </div>
                                     <div class="col-lg-3 col-12">
-                                          <input type="text" class="form-control" placeholder="Address...">
+                                          <input type="text" class="form-control fs-14" placeholder="Address...">
                                     </div>
                               </div>
                               <div class="row">
                                     <div class="col-lg-3 col-12">
-                                          <div id="slider-range" class="w-100"></div>
+                                          <div class="range-custom">
+                                                <div id="slider-range" class="slider-ranges"></div>
+                                                <div class="mt-3">
+                                                      <input name="amount" class="amount w-100 " type="text" id="amount"
+                                                            readonly>
+                                                </div>
+
+                                          </div>
+
                                     </div>
                                     <div class="col-lg-3 col-12 mt-3 mt-lg-0">
                                           <div class="d-flex">
@@ -86,7 +93,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                   <div class="d-md-flex justify-content-end mt-3">
                         <div class="form-group">
-                              <select id="orderby" class="form-control ">
+                              <select id="orderby" class="form-control fs-14">
                                     <option value="0">Title</option>
                                     <option value="1">Ref #</option>
                                     <option value="2">List date</option>
@@ -96,26 +103,26 @@ $url_path = str_replace('\\', '/', $url_path);
                               </select>
                         </div>
                         <div class="form-group ml-lg-3">
-                              <select id="ordertype" class="form-control ">
+                              <select id="ordertype" class="form-control fs-14">
                                     <option value="0">Descending</option>
                                     <option value="1">Ascending</option>
                               </select>
                         </div>
                         <div class="d-flex justify-content-end mb-3">
                               <div class="ml-3">
-                                    <button class="btn btn-filter text-white w-100 pt-2 pb-2 pl-3 pr-3"
-                                          href="#">Filter</button>
+                                    <a class="btn btn-filter text-white w-100 pt-2 pb-2 pl-3 pr-3"
+                                          href="#">Filter</a>
                               </div>
                               <div class="ml-3">
-                                    <button class="btn btn-reset text-white w-100 pt-2 pb-2 pl-3 pr-3"
-                                          href="#">Reset</button>
+                                    <a class="btn btn-reset text-white w-100 pt-2 pb-2 pl-3 pr-3"
+                                          href="#">Reset</a>
                               </div>
                         </div>
 
                   </div>
 
                   <div class="d-flex justify-content-end">
-                        <div>
+                        <div class="mr-1">
                               <button class="btn btn-custom">
                                     <i class="fa fa-list icon-list" aria-hidden="true"></i>
                               </button>
@@ -143,7 +150,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                                         A1
                                                                   </h5>
                                                             </a>
-                                                            <span class="price">€ 500.000</span>
+                                                            <span class="price fs-14">€ 500.000</span>
                                                       </div>
                                                       <p class="card-text mb-0"><small class="text-muted">180 West
                                                                   College
@@ -151,7 +158,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                       <p class="card-text">Typi non habent claritatem insitam; est usus
                                                             legentis in iis qui facit eorum claritatem.</p>
                                                       <hr>
-                                                      <div class="d-flex justify-content-between content-icon">
+                                                      <div class="d-flex justify-content-between content-icon fs-14">
                                                             <div class="d-flex align-items-center">
                                                                   <i class="fa fa-plus-square-o mr-2"
                                                                         aria-hidden="true"></i>

@@ -169,7 +169,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="mt-lg-4 mt-3 d-flex justify-content-end">
                                           <form action="">
                                                 <div class="form-group">
-                                                      <select id="categories" class="form-control fs-14 bg-transparent"
+                                                      <select id="categories" class="form-control fs-14 bg-transparent categori-custom "
                                                             onchange="this.form.submit()">
                                                             <option value="0" href="#">All</option>
                                                             <option value="1" href="#">Since last visit</option>
@@ -288,7 +288,15 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
 
                                     <div>
-                                          <h2 class="text-uppercase"><a href="#" class="text-content">members</a></h2>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                                <h2 class="text-uppercase "><a href="#" class="text-content">members</a>
+                                                </h2>
+                                                <div
+                                                      class="d-flex border-icon  align-items-center justify-content-center">
+                                                      <i class="fa fa-angle-up" aria-hidden="true"></i>
+                                                </div>
+                                          </div>
+
                                           <div class="d-lg-flex align-items-center">
                                                 <i class="fa fa-users fa-3x mr-lg-5" aria-hidden="true"></i>
                                                 <p class="mb-0 fs-14 mt-3 mt-lg-0">Total users online:
@@ -298,8 +306,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
 
                                     <div>
+                                    <div class="d-flex justify-content-between align-items-center">
                                           <h2 class="text-uppercase "><a href="#" class="text-content">Statistics</a>
                                           </h2>
+                                                <div
+                                                      class="d-flex border-icon  align-items-center justify-content-center">
+                                                      <i class="fa fa-compress" aria-hidden="true"></i>
+                                                </div>
+                                          </div>
                                           <div class="row fs-14">
                                                 <div class="col-lg-4 col-12 ">
                                                       <p class="mb-0 ml-lg-5 pl-lg-5 ">Total Messages:

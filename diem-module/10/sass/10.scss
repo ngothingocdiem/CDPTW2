@@ -16,6 +16,10 @@
 
       color: $color;
 
+      h3, span{
+            word-break: break-word;
+      }
+
       .bg-footer{
             background-image: url('../images/10-hinh1.png');
             background-repeat: no-repeat;

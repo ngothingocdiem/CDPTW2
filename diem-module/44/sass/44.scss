@@ -59,6 +59,13 @@
 
   color: $color;
 
+  .border-icon{
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+  }
+
   .bg {
     background-image: url("../images/44-bg.png");
     background-repeat: repeat;
